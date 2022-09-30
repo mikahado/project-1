@@ -1,10 +1,16 @@
+API LINK: Not complete....  https://api.worldbank.org/v2/indicator/SP.DYN.LE00.IN
+
+OR Random quote API: https://zenquotes.io/api/random 
+ALLOWS YOU TO "COLLECT" A QUOTE
+
+
 Must have 3 different event listeners. 
 
 ### Step 1: Coming Up with an Idea
 
 A problem to solve. 
 A passion project. 
-A self-help app. 
+A self-help app. Puts life into perspective. 
 
 ## How to calculate your life in months.
 
@@ -32,7 +38,10 @@ That is between 945 and 984 months.
 
 For clarity, we round up to 1000.  
 
+Other data: Peak mental performance. Peak physical performance. 
 
+New paradigm of age. Strips life of those age-thresholds, which are mostly for the young. 1-18, 21, 24, 40, 70.
+A biological approach to age, taught through the conceit that "Life is a 1000 months long. What are you going to do with it?"
 
 ### Step 2: Overview 
 

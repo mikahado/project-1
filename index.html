@@ -6,17 +6,24 @@
         <link rel="stylesheet" href="./stylesheets/style.css">
     </head>
 
-    <body>
+    <>
         <div id="main-content">
             <h1>A Thousand Months on Earth</h1>
         </div>
 
-        <form id="create-main-form" action="" method="POST">
-            <label for="newUserInput">My Life in Months</label><br/><br/>
-            <input type="text" id="todayDate" name="todayDate" placeholder="Today's Date"><br/><br/>
-            <input type="text" id="birthDate" name="birthDate" placeholder="Birth Date"><br/><br/>
+        <br/>
+        <form id="main-form" action="" method="POST">
+            <h3>Calculate My Age in Months</h3>
+            <label>
+                Enter today's date:
+            <input type="date" id="todayDate" name="todayDate" value=""><br/><br/>
+            </label>
+            <label> Enter your birth date: 
+            <input type="date" id="birthDate" name="birthDate" value=""><br/><br/>
+            </label>
             <input type="submit" value="Calculate">
         </form>
+ 
 
         <div id="info">
             <h2>My Info</h2>
