@@ -7,44 +7,68 @@ html {
 body {
     min-height: 100%;
     min-width: 100%;
-    background-color: linear-gradient(azure, rgb(130, 215, 248), white);
+    background: whitesmoke;
 }
 
 button {
     font-size: 7px;
 }
 
-#main-form{
-    margin: 50px;
-    position: center;
-    width: 33%;
+#container {
+
+    padding: 30px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border: 3px solid #333;
-    background: rgba(255,255,255, 0.75);
-    padding: 15px 20px 18px 18px;
-    border-radius: 10px;
-    box-shadow: 2px 5px 5px rgb(160, 159, 159);
+    width: 100%;
+
 }
 
-#main-content {
-    margin: 25px;
+#header {
+    width: 80%;
+    margin: auto;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex: 1;
     flex-direction: column;
-    border: 1px solid #333;
-    background: rgba(255,255,255, 0.75);
+    border: 2px solid #333;
+    color:#9be5aa;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    text-shadow: 3px 3px 3px black;
+    background-image: url(../img/myWhirlpool1.jpg);
+    background-size: 100%;
+    background-position: 50%;
+    background-color: rgba(255,255,255, 0.75);
     padding: 15px 20px 18px 18px;
+    border-radius: 10px;
+    box-shadow: 2px 5px 5px rgb(131, 131, 131);
+}
+
+
+#ageInMonths{
+    margin: 10px;
+    width: 33%;
+    flex-direction: column;
+    border: 3px solid #333;
+    background: rgba(255,255,255, 0.75);
+    padding: 10px 20px 20px 30px;
     border-radius: 10px;
     box-shadow: 2px 5px 5px rgb(160, 159, 159);
 }
 
+#about{
+    margin-left: 15px;
+    text-align: left;
+    width: 33%;
+    text-shadow: 2px 2px 2px #b8b8b8;
+
+}
+
+
 #info {
-    margin: 50px; 
+    width: 60%;
+    margin: auto; 
     border: 1px solid #333;
     background: rgba(255,255,255,0.75);
     padding: 15px 20px 18px 18px;
@@ -52,3 +76,46 @@ button {
     box-shadow: 2px 5px 5px rgb(160, 159, 159);
 
 }
+
+#reminders {
+    width: 60%;
+    margin: auto; 
+    border: 1px solid #333;
+    background: rgba(255,255,255,0.75);
+    padding: 15px 20px 18px 18px;
+    border-radius: 10px;
+    box-shadow: 2px 5px 5px rgb(160, 159, 159);
+}
+
+#activity {
+    width: 60%; 
+    margin: auto; 
+    border: 1px solid #333;
+    background: rgba(255,255,255,0.75);
+    padding: 15px 20px 18px 18px;
+    border-radius: 10px;
+    box-shadow: 2px 5px 5px rgb(160, 159, 159);
+}
+
+#subtitles {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20pt;
+    font-style: italic;
+    color:#9be5aa;
+    text-shadow: 1px 1px 2px #000000;
+    justify-items: right;
+
+}
+
+#comments {
+    width: 60%;
+    margin: auto; 
+    border: 1px solid #333;
+    background: rgba(255,255,255,0.75);
+    padding: 15px 20px 18px 18px;
+    border-radius: 10px;
+    box-shadow: 2px 5px 5px rgb(160, 159, 159);
+    resize: none;
+}
+
+
