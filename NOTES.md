@@ -1,3 +1,38 @@
+Name: Life Counter. TimeLife. MyMonth. Month. 
+
+Like a step counter, but for your whole life. App for middle aged people that want a fire under their butt. 
+
+What does it do? The app puts your life in time into perspective. It shows you how many months you have lived, and how many you might have left, based on average life expectancy. It is positive, supportive, inspirational. Not like a 'death counter'. 
+
+Reminds you once every 3-5 weeks (on random days you have taken less than average steps), how many months you have lived...
+
+Anonymous. Only username and password, which is site specific. No sign up. 
+
+Enter biometrics. 
+
+Free account: general input. Location, age, height, weight.
+
+Paid account, more specific: Income, diet, sexual activity.  
+
+# Inspiration 
+
+When my brother and his wife had their first child, they only refered to the little one's age in months. He is 12 months old, 18 months old, 24 months old. This was baffling to me, because it made more sense to say he is one, one and a half, or two. They explained that they counted their son's life in months because it helped them track major growth changes, and because that was how doctors communicated with them. It made sense. 
+     And then one day I asked myself, Well then how many months have YOU lived, Michael? I took my age (35) and multiplied it by the months in the year (12) and found out I had lived 420 months! Plus 3, since my birthday had recently  passed. 
+      423 months old, in baby-years. 
+      The average life expectancy for a male in the US is 76. 
+      76 x 12 is 912... 
+      Nine hundred and twelve. Let's round it up to a thousand. It might be generous, but at least we could say: a long-lived life lasts a thousand months. 
+      I never knew this before. 
+      A thousand months. That's all you got. 
+      And I, myself, have already lived 423 of them.
+      Speaking personally, this doesn't fill me with anxiety (well ok maybe a little) But it does put TIME into perspective. Now time isn't everything. Life itself is deep and mysterious far beyond and below the count of any old clock. But when it comes to what you want to do in life, and how much time it takes to do it, a simple, occasional reminder of where you are at in time, relative to all the time you'll ever have, helps put a fire under ME to live the life I want to live, and realize that the ONLY time to begin it, and begin again it, is right now. 
+      Ok. Yeah, I get it. You get it. We all get it. But! This simple little motivational nugget of truth is too easy to forget. This app will remind you, on days that you least expect it, or days that you need it most, or even days that its hardest to hear, that your lifetime IS precious, and you deserve to be conscious, oriented, and aware, of where your are, in time. 
+
+
+
+
+
+
 API LINK: Not complete....  https://api.worldbank.org/v2/indicator/SP.DYN.LE00.IN
 
 OR Random quote API: https://zenquotes.io/api/random 
