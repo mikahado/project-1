@@ -2,38 +2,86 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>A Thousand Months on Earth</title>
+        <title>lifeTrack, a counter for your life's journey</title>
         <link rel="stylesheet" href="./stylesheets/style.css">
+        <script src="./javascripts/index.js"></script>
     </head>
+    <body>
 
-    <>
-        <div id="main-content">
-            <h1>A Thousand Months on Earth</h1>
+        <div id="header">
+            <h1>the lifeTrack app</h1>
         </div>
 
-        <br/>
-        <form id="main-form" action="" method="POST">
-            <h3>Calculate My Age in Months</h3>
+    <div id="container">
+
+        <!-- AGE IN MONTHS FORM -->
+
+        <form id="ageInMonths" action="" method="POST">
+            <h3>Age in Months</h3>
+            <label> Name
+            <input type="text" id="username" name="username" value="" placeholder="username">
+            </label>
+            <br/><br/>
             <label>
-                Enter today's date:
-            <input type="date" id="todayDate" name="todayDate" value=""><br/><br/>
+                Current Date
+            <input type="date" id="todayDate" name="todayDate" value="" min="1800-01-01" max="2999-12-31"><br/><br/>
             </label>
-            <label> Enter your birth date: 
-            <input type="date" id="birthDate" name="birthDate" value=""><br/><br/>
+            <label> Birthdate 
+            <input type="date" id="birthDate" name="birthDate" value="" min="1800-01-01" max="2999-12-31"><br/><br/>
             </label>
-            <input type="submit" value="Calculate">
+            <input type="submit" id="button" value="Submit!">
         </form>
- 
 
-        <div id="info">
-            <h2>My Info</h2>
-            <ul id="myInfo">
+        <div id="about">
+            <p> This is lifeTrack. The practical goal-setting app. The only app that puts your life in time into perspective. It shows you how many months you have lived, and how many you might have left based on average life expectancy. It is positive, supportive, inspirational, and can be used to make practical month-term goals.  </p>
 
-            </ul>
-
-            <script src="./javascripts/index.js"></script>
         </div>
 
+    </div>
+ 
+        <div id="info">
+            <h2 id="subtitles">My Life</h2>
+            <ul id="myInfo">
+            </ul>
+        </div>
+
+        <br>
+
+<!-- MONTH PLAN -->
+
+<form id="comments" action="" method="POST">
+    <h3 id="subtitles">Month Plan</h3>
+    <label>
+        How will you make a change this month? <br><br>
+    <input type="text" id="monthPlan" name="monthPlan"><br/><br/>
+    </label>
+    <input type="submit" id="button" value="Save">
+    <ol id="reminder">
+    </ol>
+</form>
+
+<br>
+
+        <!-- QUOTES -->
+
+        <div id="activity">
+            <h3 id="subtitles">Shake It Up!</h3>
+        </div>
+
+
+        <br>
+
+
+        <!-- REMINDERS -->
+
+        <div id="reminders">
+            <h3 id="subtitles">Reminder</h3>
+
+            <ol id="reminder">
+            </ol>
+
+        </div>
+        <br>
 
     </body>
 </html>
