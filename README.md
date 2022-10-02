@@ -1,13 +1,13 @@
 # MKDO 
-## _Weather Wear - Phase 1 Project_
+## lifeTracker
 
-Weather Wear is a live-updating, mobile-ready, weather app that suggests what to wear based on the weater.
+
 
 ### Features
 
-- Access current local weather
-- Posts visual and text suggestions for smart attire, based on the weater. 
-- Prototype for app that helps user plan out day-trips, travels, etc.  
+- 
+- 
+-   
 
 ### Requirements
 * Have json-server installed
