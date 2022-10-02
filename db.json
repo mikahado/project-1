@@ -1,0 +1,670 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "ncvk-7amm",
+      "name" : "U.S. State Life Expectancy by Sex, 2019",
+      "assetType" : "dataset",
+      "attribution" : "NCHS/DVS",
+      "attributionLink" : "https://www.cdc.gov/nchs/data-visualization/state-life-expectancy/index_2019.htm",
+      "averageRating" : 0,
+      "category" : "NCHS",
+      "createdAt" : 1643904067,
+      "description" : "The dataset presents life expectancy at birth estimates based on annual complete period life tables for each of the 50 states and the District of Columbia (D.C.)\nin 2019 for the total, male and female populations.",
+      "displayType" : "table",
+      "downloadCount" : 608,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "licenseId" : "USGOV_WORKS",
+      "newBackend" : true,
+      "numberOfComments" : 0,
+      "oid" : 38162904,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1643905143,
+      "publicationGroup" : 18584980,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1643905240,
+      "rowsUpdatedBy" : "xfvr-ns68",
+      "tableId" : 18584980,
+      "totalTimesRated" : 0,
+      "viewCount" : 442,
+      "viewLastModified" : 1648588763,
+      "viewType" : "tabular",
+      "approvals" : [ {
+        "reviewedAt" : 1644469209,
+        "reviewedAutomatically" : true,
+        "state" : "approved",
+        "submissionId" : 4426105,
+        "submissionObject" : "public_audience_request",
+        "submissionOutcome" : "change_audience",
+        "submittedAt" : 1644469209,
+        "workflowId" : 2100,
+        "submissionDetails" : {
+          "permissionType" : "READ"
+        },
+        "submissionOutcomeApplication" : {
+          "endedAt" : 1644469210,
+          "failureCount" : 0,
+          "startedAt" : 1644469209,
+          "status" : "success"
+        },
+        "submitter" : {
+          "id" : "xfvr-ns68",
+          "displayName" : "NCHS"
+        }
+      } ],
+      "clientContext" : {
+        "clientContextVariables" : [ ],
+        "inheritedVariables" : { }
+      },
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 555321358,
+        "name" : "State",
+        "dataTypeName" : "text",
+        "description" : "Jurisdiction of residence",
+        "fieldName" : "state",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 140785180,
+        "cachedContents" : {
+          "non_null" : "156",
+          "largest" : "Wyoming",
+          "null" : "0",
+          "top" : [ {
+            "item" : "Kansas",
+            "count" : "3"
+          }, {
+            "item" : "Texas",
+            "count" : "3"
+          }, {
+            "item" : "Oregon",
+            "count" : "3"
+          }, {
+            "item" : "Idaho",
+            "count" : "3"
+          }, {
+            "item" : "Alabama",
+            "count" : "3"
+          }, {
+            "item" : "Alaska",
+            "count" : "3"
+          }, {
+            "item" : "United States",
+            "count" : "3"
+          }, {
+            "item" : "Oklahoma",
+            "count" : "3"
+          }, {
+            "item" : "North Carolina",
+            "count" : "3"
+          }, {
+            "item" : "Colorado",
+            "count" : "3"
+          }, {
+            "item" : "Mississippi",
+            "count" : "3"
+          }, {
+            "item" : "Florida",
+            "count" : "3"
+          }, {
+            "item" : "Delaware",
+            "count" : "3"
+          }, {
+            "item" : "Vermont",
+            "count" : "3"
+          }, {
+            "item" : "Louisiana",
+            "count" : "3"
+          }, {
+            "item" : "Nevada",
+            "count" : "3"
+          }, {
+            "item" : "New York",
+            "count" : "3"
+          }, {
+            "item" : "West Virginia",
+            "count" : "3"
+          }, {
+            "item" : "South Carolina",
+            "count" : "3"
+          }, {
+            "item" : "New Jersey",
+            "count" : "3"
+          } ],
+          "smallest" : "Alabama",
+          "count" : "156",
+          "cardinality" : "52"
+        },
+        "format" : { }
+      }, {
+        "id" : 555321357,
+        "name" : "Sex",
+        "dataTypeName" : "text",
+        "description" : "Sex",
+        "fieldName" : "sex",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 140785179,
+        "cachedContents" : {
+          "non_null" : "156",
+          "largest" : "Total",
+          "null" : "0",
+          "top" : [ {
+            "item" : "Total",
+            "count" : "52"
+          }, {
+            "item" : "Male",
+            "count" : "52"
+          }, {
+            "item" : "Female",
+            "count" : "52"
+          } ],
+          "smallest" : "Female",
+          "count" : "156",
+          "cardinality" : "3"
+        },
+        "format" : { }
+      }, {
+        "id" : 555321356,
+        "name" : "LEB",
+        "dataTypeName" : "number",
+        "description" : "Life expectancy at birth",
+        "fieldName" : "leb",
+        "position" : 3,
+        "renderTypeName" : "number",
+        "tableColumnId" : 140785178,
+        "cachedContents" : {
+          "non_null" : "156",
+          "largest" : "83.9",
+          "null" : "0",
+          "top" : [ {
+            "item" : "78",
+            "count" : "6"
+          }, {
+            "item" : "81.5",
+            "count" : "5"
+          }, {
+            "item" : "79.5",
+            "count" : "4"
+          }, {
+            "item" : "80.9",
+            "count" : "4"
+          }, {
+            "item" : "78.4",
+            "count" : "4"
+          }, {
+            "item" : "78.3",
+            "count" : "4"
+          }, {
+            "item" : "75.7",
+            "count" : "4"
+          }, {
+            "item" : "76.3",
+            "count" : "3"
+          }, {
+            "item" : "80.1",
+            "count" : "3"
+          }, {
+            "item" : "80.8",
+            "count" : "3"
+          }, {
+            "item" : "80.4",
+            "count" : "3"
+          }, {
+            "item" : "76.9",
+            "count" : "3"
+          }, {
+            "item" : "78.8",
+            "count" : "3"
+          }, {
+            "item" : "78.2",
+            "count" : "3"
+          }, {
+            "item" : "79",
+            "count" : "3"
+          }, {
+            "item" : "81.6",
+            "count" : "3"
+          }, {
+            "item" : "76.1",
+            "count" : "3"
+          }, {
+            "item" : "77.6",
+            "count" : "3"
+          }, {
+            "item" : "75.8",
+            "count" : "3"
+          }, {
+            "item" : "75.6",
+            "count" : "3"
+          } ],
+          "smallest" : "71.2",
+          "count" : "156",
+          "cardinality" : "83"
+        },
+        "format" : {
+          "align" : "right"
+        }
+      }, {
+        "id" : 555321355,
+        "name" : "SE",
+        "dataTypeName" : "number",
+        "description" : "Life expectancy Standard Error",
+        "fieldName" : "se",
+        "position" : 4,
+        "renderTypeName" : "number",
+        "tableColumnId" : 140785177,
+        "cachedContents" : {
+          "non_null" : "153",
+          "largest" : "0.279",
+          "null" : "3",
+          "top" : [ {
+            "item" : "0.059",
+            "count" : "5"
+          }, {
+            "item" : "0.082",
+            "count" : "4"
+          }, {
+            "item" : "0.075",
+            "count" : "4"
+          }, {
+            "item" : "0.066",
+            "count" : "4"
+          }, {
+            "item" : "0.078",
+            "count" : "3"
+          }, {
+            "item" : "0.057",
+            "count" : "3"
+          }, {
+            "item" : "0.114",
+            "count" : "3"
+          }, {
+            "item" : "0.045",
+            "count" : "3"
+          }, {
+            "item" : "0.101",
+            "count" : "2"
+          }, {
+            "item" : "0.099",
+            "count" : "2"
+          }, {
+            "item" : "0.097",
+            "count" : "2"
+          }, {
+            "item" : "0.153",
+            "count" : "2"
+          }, {
+            "item" : "0.07",
+            "count" : "2"
+          }, {
+            "item" : "0.098",
+            "count" : "2"
+          }, {
+            "item" : "0.073",
+            "count" : "2"
+          }, {
+            "item" : "0.077",
+            "count" : "2"
+          }, {
+            "item" : "0.119",
+            "count" : "2"
+          }, {
+            "item" : "0.032",
+            "count" : "2"
+          }, {
+            "item" : "0.086",
+            "count" : "2"
+          }, {
+            "item" : "0.065",
+            "count" : "2"
+          } ],
+          "smallest" : "0.022",
+          "count" : "156",
+          "cardinality" : "109"
+        },
+        "format" : {
+          "align" : "right"
+        }
+      }, {
+        "id" : 555321354,
+        "name" : "Quartile",
+        "dataTypeName" : "text",
+        "description" : "Life Expectancy Range",
+        "fieldName" : "quartile",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 140785176,
+        "cachedContents" : {
+          "non_null" : "156",
+          "largest" : "81.8 - 83.9",
+          "null" : "0",
+          "top" : [ {
+            "item" : "79.5 - 80.9",
+            "count" : "14"
+          }, {
+            "item" : "76.1 - 77.1",
+            "count" : "13"
+          }, {
+            "item" : "81.8 - 83.9",
+            "count" : "13"
+          }, {
+            "item" : "79.9 - 80.9",
+            "count" : "13"
+          }, {
+            "item" : "77.2 - 78.4",
+            "count" : "13"
+          }, {
+            "item" : "81.0 - 81.7",
+            "count" : "13"
+          }, {
+            "item" : "78.4 - 79.4",
+            "count" : "13"
+          }, {
+            "item" : "74.5 - 76.0",
+            "count" : "13"
+          }, {
+            "item" : "71.2 - 74.4",
+            "count" : "12"
+          }, {
+            "item" : "77.0 - 78.3",
+            "count" : "12"
+          }, {
+            "item" : "74.4 - 76.9",
+            "count" : "12"
+          }, {
+            "item" : "77.3 - 79.8",
+            "count" : "12"
+          }, {
+            "item" : "*",
+            "count" : "3"
+          } ],
+          "smallest" : "*",
+          "count" : "156",
+          "cardinality" : "13"
+        },
+        "format" : {
+          "align" : "right"
+        }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Public Domain U.S. Government",
+        "termsLink" : "https://www.usa.gov/government-works"
+      },
+      "metadata" : {
+        "custom_fields" : {
+          "Data Quality" : {
+            "Suggested Citation" : "National Center for Health Statistics. U.S. State Life Expectancy by Sex, 2019. Date accessed [Last accessed date]. Available from https://data.cdc.gov/d/ncvk-7amm."
+          },
+          "Common Core" : {
+            "Contact Email" : "cdcinfo@cdc.gov",
+            "Homepage" : "https://www.cdc.gov/nchs/data-visualization/state-life-expectancy/index_2019.htm",
+            "Contact Name" : "National Center for Health Statistics",
+            "Issued" : "2022-02-03",
+            "Update Frequency" : "irregular",
+            "Temporal Applicability" : "2019-01-01/2019-12-31",
+            "Program Code" : "009:020",
+            "Geographic Coverage" : "United States",
+            "Publisher" : "National Center for Health Statistics",
+            "Bureau Code" : "009:20",
+            "Public Access Level" : "public"
+          }
+        },
+        "rowLabel" : "State Life Expectancy for total population, male, or female",
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+      },
+      "owner" : {
+        "id" : "xfvr-ns68",
+        "displayName" : "NCHS",
+        "screenName" : "NCHS",
+        "type" : "interactive",
+        "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "xfvr-ns68",
+        "displayName" : "NCHS",
+        "screenName" : "NCHS",
+        "type" : "interactive",
+        "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+      },
+      "tags" : [ "nchs", "united states", "state", "life expectancy", "nvss", "mortality", "deaths", "sex" ],
+      "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ "row-svvq_yd4f~6mdf", "00000000-0000-0000-A38F-6D0D1F2685AB", 0, 1643905240, null, 1643905240, null, "{ }", "Hawaii", "Total", "80.9", "0.119", "79.5 - 80.9" ]
+, [ "row-8tpz_tmcc-e9ef", "00000000-0000-0000-AD13-53DBF3E7F1FF", 0, 1643905240, null, 1643905240, null, "{ }", "California", "Total", "80.9", "0.022", "79.5 - 80.9" ]
+, [ "row-stwi_4zf8_vk39", "00000000-0000-0000-E505-9F360C01A7B7", 0, 1643905240, null, 1643905240, null, "{ }", "New York", "Total", "80.7", "0.03", "79.5 - 80.9" ]
+, [ "row-gnde_33e7_in2s", "00000000-0000-0000-397D-23FB48725F90", 0, 1643905240, null, 1643905240, null, "{ }", "Minnesota", "Total", "80.4", "0.056", "79.5 - 80.9" ]
+, [ "row-p6hu-t7cd_k5ie", "00000000-0000-0000-D811-A9448E012F66", 0, 1643905240, null, 1643905240, null, "{ }", "Massachusetts", "Total", "80.4", "0.05", "79.5 - 80.9" ]
+, [ "row-gjka_tewn~2a3b", "00000000-0000-0000-CFD7-9B822819B9F5", 0, 1643905240, null, 1643905240, null, "{ }", "Connecticut", "Total", "80.3", "0.073", "79.5 - 80.9" ]
+, [ "row-p797-sz3y_74j7", "00000000-0000-0000-5CBB-ED318FD7FBBB", 0, 1643905240, null, 1643905240, null, "{ }", "New Jersey", "Total", "80.1", "0.046", "79.5 - 80.9" ]
+, [ "row-paxh.z8s9.uci6", "00000000-0000-0000-557F-6D826FB17C34", 0, 1643905240, null, 1643905240, null, "{ }", "Washington", "Total", "80", "0.048", "79.5 - 80.9" ]
+, [ "row-hxti~ik6n.brz3", "00000000-0000-0000-5BD9-25C69578F7B5", 0, 1643905240, null, 1643905240, null, "{ }", "Colorado", "Total", "80", "0.058", "79.5 - 80.9" ]
+, [ "row-xk24-fbjb~evus", "00000000-0000-0000-AD20-22C1DB661067", 0, 1643905240, null, 1643905240, null, "{ }", "Vermont", "Total", "79.8", "0.172", "79.5 - 80.9" ]
+, [ "row-c6av-qn87~3ey8", "00000000-0000-0000-9B41-6FC6434ACA54", 0, 1643905240, null, 1643905240, null, "{ }", "Utah", "Total", "79.7", "0.078", "79.5 - 80.9" ]
+, [ "row-sfiz_5izy-22vk", "00000000-0000-0000-D24D-46DC10B0DEA3", 0, 1643905240, null, 1643905240, null, "{ }", "Oregon", "Total", "79.6", "0.066", "79.5 - 80.9" ]
+, [ "row-gae9.kzdd_9qz5", "00000000-0000-0000-6FFD-5B5D7A27B670", 0, 1643905240, null, 1643905240, null, "{ }", "Idaho", "Total", "79.5", "0.101", "79.5 - 80.9" ]
+, [ "row-q7bv.kfgw~nrxs", "00000000-0000-0000-D763-FCFC2533D3AD", 0, 1643905240, null, 1643905240, null, "{ }", "Rhode Island", "Total", "79.5", "0.135", "79.5 - 80.9" ]
+, [ "row-gymi~r4xj.e8mh", "00000000-0000-0000-52C0-9828D790750D", 0, 1643905240, null, 1643905240, null, "{ }", "New Hampshire", "Total", "79.4", "0.116", "78.4 - 79.4" ]
+, [ "row-xmgp.g5w2~ykev", "00000000-0000-0000-CED2-397084A736C0", 0, 1643905240, null, 1643905240, null, "{ }", "Wisconsin", "Total", "79.3", "0.057", "78.4 - 79.4" ]
+, [ "row-wyqn.btus_feup", "00000000-0000-0000-A8D6-52915B5F19FB", 0, 1643905240, null, 1643905240, null, "{ }", "Nebraska", "Total", "79.2", "0.098", "78.4 - 79.4" ]
+, [ "row-upgt.fhit~xzix", "00000000-0000-0000-BBD5-342BF15E5364", 0, 1643905240, null, 1643905240, null, "{ }", "Virginia", "Total", "79.1", "0.047", "78.4 - 79.4" ]
+, [ "row-fu7h_um29.sxqq", "00000000-0000-0000-A8FF-34AA97D4704A", 0, 1643905240, null, 1643905240, null, "{ }", "Florida", "Total", "79", "0.032", "78.4 - 79.4" ]
+, [ "row-tjkw_4rx3.kbbp", "00000000-0000-0000-60F3-4C6AF63087B1", 0, 1643905240, null, 1643905240, null, "{ }", "Iowa", "Total", "79", "0.077", "78.4 - 79.4" ]
+, [ "row-k52g_jz3r.vb7x", "00000000-0000-0000-4A00-51E9BCD80143", 0, 1643905240, null, 1643905240, null, "{ }", "Illinois", "Total", "79", "0.039", "78.4 - 79.4" ]
+, [ "row-h8nd-d6n9~yami", "00000000-0000-0000-2099-8E5F4785CB22", 0, 1643905240, null, 1643905240, null, "{ }", "United States", "Total", "78.8", null, "*" ]
+, [ "row-2t3a.y9nc.6u9w", "00000000-0000-0000-F6E6-31C096AEB85D", 0, 1643905240, null, 1643905240, null, "{ }", "Arizona", "Total", "78.8", "0.054", "78.4 - 79.4" ]
+, [ "row-j9j3.aq2i-a7gv", "00000000-0000-0000-C7AA-6E8893BA98A7", 0, 1643905240, null, 1643905240, null, "{ }", "North Dakota", "Total", "78.8", "0.166", "78.4 - 79.4" ]
+, [ "row-3m8g-axp3~jrva", "00000000-0000-0000-B9EF-0AD9F9800192", 0, 1643905240, null, 1643905240, null, "{ }", "Texas", "Total", "78.6", "0.026", "78.4 - 79.4" ]
+, [ "row-5mx6.uaac_35fs", "00000000-0000-0000-1A0A-C4F333906D22", 0, 1643905240, null, 1643905240, null, "{ }", "Maryland", "Total", "78.5", "0.059", "78.4 - 79.4" ]
+, [ "row-vbqd~gjmd~buwb", "00000000-0000-0000-7469-7BEB5C028414", 0, 1643905240, null, 1643905240, null, "{ }", "Montana", "Total", "78.4", "0.139", "78.4 - 79.4" ]
+, [ "row-4m62-jtpe-ywia", "00000000-0000-0000-104B-9A295754D249", 0, 1643905240, null, 1643905240, null, "{ }", "South Dakota", "Total", "78.4", "0.157", "78.4 - 79.4" ]
+, [ "row-q4ev-wiq8-tpjm", "00000000-0000-0000-9ABE-C11C8BA82A45", 0, 1643905240, null, 1643905240, null, "{ }", "Pennsylvania", "Total", "78.3", "0.04", "77.0 - 78.3" ]
+, [ "row-ya54_7dd9_pg8y", "00000000-0000-0000-7AB9-739045242404", 0, 1643905240, null, 1643905240, null, "{ }", "Maine", "Total", "78.3", "0.123", "77.0 - 78.3" ]
+, [ "row-yidk~69me~kz3x", "00000000-0000-0000-04DE-1FCBD6131ECF", 0, 1643905240, null, 1643905240, null, "{ }", "Kansas", "Total", "78.2", "0.082", "77.0 - 78.3" ]
+, [ "row-hnz8~m48z_eu27", "00000000-0000-0000-B1E0-FEC9999E4CEE", 0, 1643905240, null, 1643905240, null, "{ }", "Delaware", "Total", "78.1", "0.153", "77.0 - 78.3" ]
+, [ "row-ksvc~bu48~q3pr", "00000000-0000-0000-2A5B-508EFBFC09C6", 0, 1643905240, null, 1643905240, null, "{ }", "District of Columbia", "Total", "78", "0.186", "77.0 - 78.3" ]
+, [ "row-4vz7.s7th-w4g7", "00000000-0000-0000-9BCF-4585B06F2A78", 0, 1643905240, null, 1643905240, null, "{ }", "Nevada", "Total", "78", "0.08", "77.0 - 78.3" ]
+, [ "row-t264_es6y~fz5j", "00000000-0000-0000-C950-1F0417E8DC73", 0, 1643905240, null, 1643905240, null, "{ }", "Michigan", "Total", "78", "0.045", "77.0 - 78.3" ]
+, [ "row-2n9j.ya9e~6vy9", "00000000-0000-0000-FC38-C8997E0CD821", 0, 1643905240, null, 1643905240, null, "{ }", "Alaska", "Total", "77.7", "0.173", "77.0 - 78.3" ]
+, [ "row-zi7n_ex78.z8ud", "00000000-0000-0000-C9C4-9F99E9CD6BAF", 0, 1643905240, null, 1643905240, null, "{ }", "Wyoming", "Total", "77.7", "0.199", "77.0 - 78.3" ]
+, [ "row-ksxd~upd8_xa8h", "00000000-0000-0000-6326-E81C06982E3C", 0, 1643905240, null, 1643905240, null, "{ }", "North Carolina", "Total", "77.6", "0.045", "77.0 - 78.3" ]
+, [ "row-gyhd-9cfi~22tz", "00000000-0000-0000-57ED-32C2EFFAE1B0", 0, 1643905240, null, 1643905240, null, "{ }", "Georgia", "Total", "77.4", "0.044", "77.0 - 78.3" ]
+, [ "row-g2v5.xmxs-5qgy", "00000000-0000-0000-1725-FEF276CA5217", 0, 1643905240, null, 1643905240, null, "{ }", "Indiana", "Total", "77", "0.056", "77.0 - 78.3" ]
+, [ "row-9hzs~2ihi.cihu", "00000000-0000-0000-51E4-88E892BA3E28", 0, 1643905240, null, 1643905240, null, "{ }", "Missouri", "Total", "76.9", "0.059", "74.4 - 76.9" ]
+, [ "row-9dcd-z2ri~v5we", "00000000-0000-0000-A6D1-F1389473F1BC", 0, 1643905240, null, 1643905240, null, "{ }", "New Mexico", "Total", "76.9", "0.109", "74.4 - 76.9" ]
+, [ "row-2pms~96yi_934t", "00000000-0000-0000-EA28-2BA16700CDC6", 0, 1643905240, null, 1643905240, null, "{ }", "Ohio", "Total", "76.9", "0.043", "74.4 - 76.9" ]
+, [ "row-9is5.cju3_88gr", "00000000-0000-0000-3F66-2C23E6D4053A", 0, 1643905240, null, 1643905240, null, "{ }", "South Carolina", "Total", "76.8", "0.066", "74.4 - 76.9" ]
+, [ "row-i4n9-y82n_v8nr", "00000000-0000-0000-8423-8792F94AA2CF", 0, 1643905240, null, 1643905240, null, "{ }", "Louisiana", "Total", "75.7", "0.07", "74.4 - 76.9" ]
+, [ "row-cewh-uepf~hjba", "00000000-0000-0000-7B45-B84F150E3EB1", 0, 1643905240, null, 1643905240, null, "{ }", "Oklahoma", "Total", "75.7", "0.073", "74.4 - 76.9" ]
+, [ "row-x5rs-uks6~ygwd", "00000000-0000-0000-C302-7D6C9C3BA5C4", 0, 1643905240, null, 1643905240, null, "{ }", "Arkansas", "Total", "75.7", "0.085", "74.4 - 76.9" ]
+, [ "row-hk7c~guwh_h7rf", "00000000-0000-0000-3BFA-D98A8B9F6A94", 0, 1643905240, null, 1643905240, null, "{ }", "Tennessee", "Total", "75.6", "0.057", "74.4 - 76.9" ]
+, [ "row-cqgg.q773_w9w6", "00000000-0000-0000-C4CD-161C88A46523", 0, 1643905240, null, 1643905240, null, "{ }", "Kentucky", "Total", "75.5", "0.068", "74.4 - 76.9" ]
+, [ "row-sy5y.iutd_hqit", "00000000-0000-0000-6B4C-ACEEE82D3331", 0, 1643905240, null, 1643905240, null, "{ }", "Alabama", "Total", "75.2", "0.068", "74.4 - 76.9" ]
+, [ "row-bxfd-kzeu_5v9r", "00000000-0000-0000-9C34-FCA30BA9EC3E", 0, 1643905240, null, 1643905240, null, "{ }", "West Virginia", "Total", "74.5", "0.114", "74.4 - 76.9" ]
+, [ "row-yu5h~z2kg-83bf", "00000000-0000-0000-F0DC-139BB53C56B3", 0, 1643905240, null, 1643905240, null, "{ }", "Mississippi", "Total", "74.4", "0.089", "74.4 - 76.9" ]
+, [ "row-wtia-rbcc~rjun", "00000000-0000-0000-1C29-4032450132FF", 0, 1643905240, null, 1643905240, null, "{ }", "California", "Male", "78.4", "0.032", "77.2 - 78.4" ]
+, [ "row-8uyu-qcqx~izfk", "00000000-0000-0000-BEAD-6F8EEB64156C", 0, 1643905240, null, 1643905240, null, "{ }", "Minnesota", "Male", "78.3", "0.082", "77.2 - 78.4" ]
+, [ "row-fycb_wmjg~2jjt", "00000000-0000-0000-8676-9994D760FA52", 0, 1643905240, null, 1643905240, null, "{ }", "New York", "Male", "78.2", "0.045", "77.2 - 78.4" ]
+, [ "row-cxj3-5yjc.hwgc", "00000000-0000-0000-FA9C-76BBFF57369B", 0, 1643905240, null, 1643905240, null, "{ }", "Hawaii", "Male", "78", "0.172", "77.2 - 78.4" ]
+, [ "row-p896.duuw-xhbt", "00000000-0000-0000-3C93-2AD9807A9384", 0, 1643905240, null, 1643905240, null, "{ }", "Utah", "Male", "78", "0.114", "77.2 - 78.4" ]
+, [ "row-99k4-uw88_66mn", "00000000-0000-0000-D7D9-697CBFA55F60", 0, 1643905240, null, 1643905240, null, "{ }", "Massachusetts", "Male", "77.9", "0.074", "77.2 - 78.4" ]
+, [ "row-fyjm.iyjg-dd4r", "00000000-0000-0000-4058-1DAA141EAC9D", 0, 1643905240, null, 1643905240, null, "{ }", "Washington", "Male", "77.9", "0.07", "77.2 - 78.4" ]
+, [ "row-esh6.c5ny_thkh", "00000000-0000-0000-AEA6-913C2E8794A8", 0, 1643905240, null, 1643905240, null, "{ }", "Colorado", "Male", "77.8", "0.084", "77.2 - 78.4" ]
+, [ "row-gehy.d3xv-muhq", "00000000-0000-0000-0C6C-E72D76122546", 0, 1643905240, null, 1643905240, null, "{ }", "Connecticut", "Male", "77.7", "0.107", "77.2 - 78.4" ]
+, [ "row-a9wn.qum8_5wxq", "00000000-0000-0000-1C3E-67FF5A700D18", 0, 1643905240, null, 1643905240, null, "{ }", "New Jersey", "Male", "77.6", "0.067", "77.2 - 78.4" ]
+, [ "row-vu6u.9ctx-ck6q", "00000000-0000-0000-BCA4-4D6A8DB60E72", 0, 1643905240, null, 1643905240, null, "{ }", "Idaho", "Male", "77.5", "0.147", "77.2 - 78.4" ]
+, [ "row-r58i~k72q.tgxe", "00000000-0000-0000-9D43-19BF4DE306BD", 0, 1643905240, null, 1643905240, null, "{ }", "Oregon", "Male", "77.3", "0.097", "77.2 - 78.4" ]
+, [ "row-8t6e_j49w_aqnc", "00000000-0000-0000-F5F8-64D40C489857", 0, 1643905240, null, 1643905240, null, "{ }", "Vermont", "Male", "77.2", "0.259", "77.2 - 78.4" ]
+, [ "row-5t22_g4kd-5vp8", "00000000-0000-0000-C15A-9292021D7A12", 0, 1643905240, null, 1643905240, null, "{ }", "Nebraska", "Male", "77.1", "0.141", "76.1 - 77.1" ]
+, [ "row-y6x7.7he5_g5zy", "00000000-0000-0000-F8CD-24C0326D8563", 0, 1643905240, null, 1643905240, null, "{ }", "New Hampshire", "Male", "77.1", "0.171", "76.1 - 77.1" ]
+, [ "row-6g9r~ti5h-2gvs", "00000000-0000-0000-BE66-FF6FB1C35535", 0, 1643905240, null, 1643905240, null, "{ }", "Rhode Island", "Male", "77", "0.199", "76.1 - 77.1" ]
+, [ "row-vjzn~b3rx~27rx", "00000000-0000-0000-58AF-EE5EE866F13E", 0, 1643905240, null, 1643905240, null, "{ }", "Wisconsin", "Male", "77", "0.082", "76.1 - 77.1" ]
+, [ "row-tbtb.m25m.ut79", "00000000-0000-0000-DAEC-33CC27E3C5C1", 0, 1643905240, null, 1643905240, null, "{ }", "Virginia", "Male", "76.8", "0.069", "76.1 - 77.1" ]
+, [ "row-zhdt_8v82-m4s4", "00000000-0000-0000-ACB8-85E6BEAEB77A", 0, 1643905240, null, 1643905240, null, "{ }", "Iowa", "Male", "76.5", "0.113", "76.1 - 77.1" ]
+, [ "row-hh5e_4mxm_pz7s", "00000000-0000-0000-AA43-4C6FFE99ED89", 0, 1643905240, null, 1643905240, null, "{ }", "Illinois", "Male", "76.4", "0.058", "76.1 - 77.1" ]
+, [ "row-qy8g.kvq6_te5x", "00000000-0000-0000-B6F3-FD8CCE86194E", 0, 1643905240, null, 1643905240, null, "{ }", "Florida", "Male", "76.3", "0.047", "76.1 - 77.1" ]
+, [ "row-vu4x~7fwc-fiq3", "00000000-0000-0000-13D1-AC1BBCB98D56", 0, 1643905240, null, 1643905240, null, "{ }", "North Dakota", "Male", "76.3", "0.235", "76.1 - 77.1" ]
+, [ "row-urjz-vjgu.daus", "00000000-0000-0000-5BDC-813327038145", 0, 1643905240, null, 1643905240, null, "{ }", "United States", "Male", "76.3", null, "*" ]
+, [ "row-vq6y~b87p.g7nz", "00000000-0000-0000-53DC-E89B232C6DEB", 0, 1643905240, null, 1643905240, null, "{ }", "Montana", "Male", "76.2", "0.204", "76.1 - 77.1" ]
+, [ "row-czjp-jkfp_c99y", "00000000-0000-0000-5219-AA9B4FBF5DCA", 0, 1643905240, null, 1643905240, null, "{ }", "Arizona", "Male", "76.1", "0.08", "76.1 - 77.1" ]
+, [ "row-qnbn.7ym7-4b52", "00000000-0000-0000-F6E6-3B7CBA0744EC", 0, 1643905240, null, 1643905240, null, "{ }", "South Dakota", "Male", "76.1", "0.226", "76.1 - 77.1" ]
+, [ "row-qv6h_xaj6_jr2q", "00000000-0000-0000-335C-6563FC22E11D", 0, 1643905240, null, 1643905240, null, "{ }", "Texas", "Male", "76.1", "0.038", "76.1 - 77.1" ]
+, [ "row-j2gy-edq5-qbj8", "00000000-0000-0000-19D8-FCD2492E8725", 0, 1643905240, null, 1643905240, null, "{ }", "Kansas", "Male", "75.9", "0.119", "74.5 - 76.0" ]
+, [ "row-hrum~ajn9-necj", "00000000-0000-0000-7C21-4FEF8024588A", 0, 1643905240, null, 1643905240, null, "{ }", "Maine", "Male", "75.8", "0.18", "74.5 - 76.0" ]
+, [ "row-9dqs-ec4m.gfpb", "00000000-0000-0000-5916-AD426FFF29F3", 0, 1643905240, null, 1643905240, null, "{ }", "Maryland", "Male", "75.8", "0.088", "74.5 - 76.0" ]
+, [ "row-qwxn-nnn4.vxhh", "00000000-0000-0000-9163-DBB2EF374AAB", 0, 1643905240, null, 1643905240, null, "{ }", "Alaska", "Male", "75.8", "0.247", "74.5 - 76.0" ]
+, [ "row-4hnj-hsey-4i3v", "00000000-0000-0000-5C57-64C54FF04CF3", 0, 1643905240, null, 1643905240, null, "{ }", "Pennsylvania", "Male", "75.7", "0.059", "74.5 - 76.0" ]
+, [ "row-gtn3-rnaw-xiqu", "00000000-0000-0000-E249-46C67765CD99", 0, 1643905240, null, 1643905240, null, "{ }", "Michigan", "Male", "75.6", "0.066", "74.5 - 76.0" ]
+, [ "row-tvqb-tfrx_ry66", "00000000-0000-0000-280A-42AB452CF217", 0, 1643905240, null, 1643905240, null, "{ }", "Nevada", "Male", "75.6", "0.115", "74.5 - 76.0" ]
+, [ "row-57sf~zd5s~vb5f", "00000000-0000-0000-9095-E81C6E589135", 0, 1643905240, null, 1643905240, null, "{ }", "Wyoming", "Male", "75.4", "0.279", "74.5 - 76.0" ]
+, [ "row-2uis.bi38~2x7t", "00000000-0000-0000-15CA-9CEB0BEF3B86", 0, 1643905240, null, 1643905240, null, "{ }", "Delaware", "Male", "75.1", "0.225", "74.5 - 76.0" ]
+, [ "row-r3q2.3pkx-if7h", "00000000-0000-0000-80A1-5906A9FDADB7", 0, 1643905240, null, 1643905240, null, "{ }", "North Carolina", "Male", "75", "0.066", "74.5 - 76.0" ]
+, [ "row-egcr_d29b~f6zc", "00000000-0000-0000-93C4-0E0A5BE0FF5A", 0, 1643905240, null, 1643905240, null, "{ }", "Georgia", "Male", "74.9", "0.065", "74.5 - 76.0" ]
+, [ "row-hb8a.nzzs.sh63", "00000000-0000-0000-572F-D08D188A6C42", 0, 1643905240, null, 1643905240, null, "{ }", "District of Columbia", "Male", "74.9", "0.276", "74.5 - 76.0" ]
+, [ "row-5sbv.cpd5.usxf", "00000000-0000-0000-2CDD-F14C290D0F9A", 0, 1643905240, null, 1643905240, null, "{ }", "Indiana", "Male", "74.5", "0.081", "74.5 - 76.0" ]
+, [ "row-d9fd~v7vw_ny64", "00000000-0000-0000-8820-C8DD80D67B00", 0, 1643905240, null, 1643905240, null, "{ }", "Ohio", "Male", "74.3", "0.062", "71.2 - 74.4" ]
+, [ "row-9tz3~2mp8~jqvx", "00000000-0000-0000-E5CB-5F71CF6F0380", 0, 1643905240, null, 1643905240, null, "{ }", "Missouri", "Male", "74.1", "0.087", "71.2 - 74.4" ]
+, [ "row-eztv_rcd7.ucrr", "00000000-0000-0000-E422-270B9655EB8F", 0, 1643905240, null, 1643905240, null, "{ }", "New Mexico", "Male", "73.9", "0.159", "71.2 - 74.4" ]
+, [ "row-3jn2_u2iu~r342", "00000000-0000-0000-577E-1A4FCD591304", 0, 1643905240, null, 1643905240, null, "{ }", "South Carolina", "Male", "73.9", "0.098", "71.2 - 74.4" ]
+, [ "row-xbw2_ntfq_g5x7", "00000000-0000-0000-C4DF-DFEF738F6960", 0, 1643905240, null, 1643905240, null, "{ }", "Oklahoma", "Male", "73.2", "0.106", "71.2 - 74.4" ]
+, [ "row-kzn2_ekqc~zb4c", "00000000-0000-0000-F9C9-100C07FA867C", 0, 1643905240, null, 1643905240, null, "{ }", "Arkansas", "Male", "73", "0.122", "71.2 - 74.4" ]
+, [ "row-srxy-gvp6.s28m", "00000000-0000-0000-E4BE-61A22CD613F2", 0, 1643905240, null, 1643905240, null, "{ }", "Kentucky", "Male", "72.9", "0.097", "71.2 - 74.4" ]
+, [ "row-mtku~wp4a-6d3w", "00000000-0000-0000-5885-D71A2E91EDD2", 0, 1643905240, null, 1643905240, null, "{ }", "Louisiana", "Male", "72.8", "0.102", "71.2 - 74.4" ]
+, [ "row-6skd.w29t.vttz", "00000000-0000-0000-B1EF-84BF07A82AEF", 0, 1643905240, null, 1643905240, null, "{ }", "Tennessee", "Male", "72.8", "0.082", "71.2 - 74.4" ]
+, [ "row-r4d6~z8db~xn8r", "00000000-0000-0000-9890-82ECB862E6FE", 0, 1643905240, null, 1643905240, null, "{ }", "Alabama", "Male", "72.2", "0.099", "71.2 - 74.4" ]
+, [ "row-hqk8-64ig~pcju", "00000000-0000-0000-85B3-AF299408F032", 0, 1643905240, null, 1643905240, null, "{ }", "West Virginia", "Male", "71.9", "0.164", "71.2 - 74.4" ]
+, [ "row-fxfs.tjyp-t9qn", "00000000-0000-0000-F9B5-BA957BA3395D", 0, 1643905240, null, 1643905240, null, "{ }", "Mississippi", "Male", "71.2", "0.129", "71.2 - 74.4" ]
+, [ "row-ubkb~wn95.7hs3", "00000000-0000-0000-524E-CFFEC74E9CBB", 0, 1643905240, null, 1643905240, null, "{ }", "Hawaii", "Female", "83.9", "0.158", "81.8 - 83.9" ]
+, [ "row-j3ms-ive3.t58q", "00000000-0000-0000-EDA9-ECD5F1956BDD", 0, 1643905240, null, 1643905240, null, "{ }", "California", "Female", "83.3", "0.028", "81.8 - 83.9" ]
+, [ "row-wnqm-huup-peia", "00000000-0000-0000-A131-5E3322AA94CE", 0, 1643905240, null, 1643905240, null, "{ }", "New York", "Female", "83.1", "0.04", "81.8 - 83.9" ]
+, [ "row-h24n~cpa6-9cf6", "00000000-0000-0000-D837-5EB870EAB1E1", 0, 1643905240, null, 1643905240, null, "{ }", "Connecticut", "Female", "82.8", "0.094", "81.8 - 83.9" ]
+, [ "row-j53i_knjk.gthv", "00000000-0000-0000-A693-EB9B87629E0F", 0, 1643905240, null, 1643905240, null, "{ }", "Massachusetts", "Female", "82.8", "0.065", "81.8 - 83.9" ]
+, [ "row-fbve-v2xp-ihv7", "00000000-0000-0000-08A0-7AB369CFCB74", 0, 1643905240, null, 1643905240, null, "{ }", "Minnesota", "Female", "82.6", "0.075", "81.8 - 83.9" ]
+, [ "row-cj8u~rked-3qkt", "00000000-0000-0000-8A80-D85F7107AABA", 0, 1643905240, null, 1643905240, null, "{ }", "New Jersey", "Female", "82.5", "0.06", "81.8 - 83.9" ]
+, [ "row-ghp8.wp98-gbpj", "00000000-0000-0000-D7D5-E8FDD87057D0", 0, 1643905240, null, 1643905240, null, "{ }", "Vermont", "Female", "82.3", "0.223", "81.8 - 83.9" ]
+, [ "row-d39v_iyf5.4tbs", "00000000-0000-0000-4CB8-BB8C7AD803D1", 0, 1643905240, null, 1643905240, null, "{ }", "Colorado", "Female", "82.2", "0.077", "81.8 - 83.9" ]
+, [ "row-swgd.wfak.tfny", "00000000-0000-0000-5ECB-A853172232FF", 0, 1643905240, null, 1643905240, null, "{ }", "Washington", "Female", "82.1", "0.064", "81.8 - 83.9" ]
+, [ "row-bran.cme4.g3at", "00000000-0000-0000-FC44-94B254959702", 0, 1643905240, null, 1643905240, null, "{ }", "Oregon", "Female", "81.9", "0.086", "81.8 - 83.9" ]
+, [ "row-z24y_2vgp-wzkn", "00000000-0000-0000-0F34-B58963340879", 0, 1643905240, null, 1643905240, null, "{ }", "Florida", "Female", "81.8", "0.042", "81.8 - 83.9" ]
+, [ "row-32nn_ry4g~4xv3", "00000000-0000-0000-90F8-BF1C77A87376", 0, 1643905240, null, 1643905240, null, "{ }", "Rhode Island", "Female", "81.8", "0.179", "81.8 - 83.9" ]
+, [ "row-66a5.xf9f_jpaj", "00000000-0000-0000-A986-E526268C62AE", 0, 1643905240, null, 1643905240, null, "{ }", "Arizona", "Female", "81.6", "0.071", "81.0 - 81.7" ]
+, [ "row-zbpf.4tyk-3umi", "00000000-0000-0000-2395-815340D8E7FF", 0, 1643905240, null, 1643905240, null, "{ }", "Iowa", "Female", "81.6", "0.101", "81.0 - 81.7" ]
+, [ "row-rehd.rbg8~mxcg", "00000000-0000-0000-B7F9-A38114FF1E99", 0, 1643905240, null, 1643905240, null, "{ }", "New Hampshire", "Female", "81.6", "0.154", "81.0 - 81.7" ]
+, [ "row-eya6.f44q.nxkc", "00000000-0000-0000-6878-992628C23FDE", 0, 1643905240, null, 1643905240, null, "{ }", "Idaho", "Female", "81.5", "0.137", "81.0 - 81.7" ]
+, [ "row-z9a5_2rg4-63jm", "00000000-0000-0000-55AB-4B54D962F201", 0, 1643905240, null, 1643905240, null, "{ }", "Illinois", "Female", "81.5", "0.052", "81.0 - 81.7" ]
+, [ "row-23gr-3npk-2hdb", "00000000-0000-0000-02BD-2488E5940F81", 0, 1643905240, null, 1643905240, null, "{ }", "North Dakota", "Female", "81.5", "0.227", "81.0 - 81.7" ]
+, [ "row-afii-uiha.386z", "00000000-0000-0000-CFDA-8184FDA1AC8B", 0, 1643905240, null, 1643905240, null, "{ }", "Utah", "Female", "81.5", "0.105", "81.0 - 81.7" ]
+, [ "row-6vyu~zb3h-dqt2", "00000000-0000-0000-D926-2DBB83A90367", 0, 1643905240, null, 1643905240, null, "{ }", "Wisconsin", "Female", "81.5", "0.078", "81.0 - 81.7" ]
+, [ "row-jtcp_86zg~3mw2", "00000000-0000-0000-7DB6-D7D378AD6863", 0, 1643905240, null, 1643905240, null, "{ }", "Nebraska", "Female", "81.3", "0.134", "81.0 - 81.7" ]
+, [ "row-4kuh_g3yz~es6v", "00000000-0000-0000-D31D-4C3BC67D2179", 0, 1643905240, null, 1643905240, null, "{ }", "Virginia", "Female", "81.3", "0.063", "81.0 - 81.7" ]
+, [ "row-xw2h.6nts.huu2", "00000000-0000-0000-DCCB-996237BA78F6", 0, 1643905240, null, 1643905240, null, "{ }", "Maryland", "Female", "81.2", "0.075", "81.0 - 81.7" ]
+, [ "row-gkta~wn82_9atg", "00000000-0000-0000-4DB8-C2B7FE983C5A", 0, 1643905240, null, 1643905240, null, "{ }", "Delaware", "Female", "81", "0.202", "81.0 - 81.7" ]
+, [ "row-amey.4ge5~kgjp", "00000000-0000-0000-3187-EED0814B0509", 0, 1643905240, null, 1643905240, null, "{ }", "Texas", "Female", "81", "0.035", "81.0 - 81.7" ]
+, [ "row-59p8-kg2p~yv6y", "00000000-0000-0000-ED9D-D093A3E19DC1", 0, 1643905240, null, 1643905240, null, "{ }", "Maine", "Female", "80.9", "0.164", "79.9 - 80.9" ]
+, [ "row-kcgf-4yi4_v8h8", "00000000-0000-0000-8B50-F504A0BF1875", 0, 1643905240, null, 1643905240, null, "{ }", "Pennsylvania", "Female", "80.9", "0.053", "79.9 - 80.9" ]
+, [ "row-y5z5_m3n3.q56z", "00000000-0000-0000-7EA2-63B4D4038935", 0, 1643905240, null, 1643905240, null, "{ }", "District of Columbia", "Female", "80.8", "0.244", "79.9 - 80.9" ]
+, [ "row-nedj.fdyp_pdcn", "00000000-0000-0000-EC7C-3B36053DCB50", 0, 1643905240, null, 1643905240, null, "{ }", "Montana", "Female", "80.8", "0.185", "79.9 - 80.9" ]
+, [ "row-fqcc-nrs9-eunp", "00000000-0000-0000-CDF9-3BF8EBA7E5D2", 0, 1643905240, null, 1643905240, null, "{ }", "South Dakota", "Female", "80.8", "0.214", "79.9 - 80.9" ]
+, [ "row-rjw2-9tuw_9ih6", "00000000-0000-0000-C057-E9CDE7603762", 0, 1643905240, null, 1643905240, null, "{ }", "Nevada", "Female", "80.6", "0.107", "79.9 - 80.9" ]
+, [ "row-dhqw-e2bi~j3zb", "00000000-0000-0000-16CA-0B817B5C1CAC", 0, 1643905240, null, 1643905240, null, "{ }", "Wyoming", "Female", "80.5", "0.262", "79.9 - 80.9" ]
+, [ "row-4xg4_77hp.zi3y", "00000000-0000-0000-C6CD-7C70B58B5B36", 0, 1643905240, null, 1643905240, null, "{ }", "Kansas", "Female", "80.4", "0.111", "79.9 - 80.9" ]
+, [ "row-k86x-qanr_8r4b", "00000000-0000-0000-0E28-677BBA6E76C3", 0, 1643905240, null, 1643905240, null, "{ }", "United States", "Female", "81.4", null, "*" ]
+, [ "row-gdxa-7v9x_gwsp", "00000000-0000-0000-F223-73DF22A7FEAE", 0, 1643905240, null, 1643905240, null, "{ }", "Michigan", "Female", "80.3", "0.06", "79.9 - 80.9" ]
+, [ "row-dfui_9823.nvns", "00000000-0000-0000-F795-DB65047C0E53", 0, 1643905240, null, 1643905240, null, "{ }", "New Mexico", "Female", "80.1", "0.143", "79.9 - 80.9" ]
+, [ "row-ta9t.kuzi-g2s5", "00000000-0000-0000-2210-BBCAFCE3FDCF", 0, 1643905240, null, 1643905240, null, "{ }", "North Carolina", "Female", "80.1", "0.059", "79.9 - 80.9" ]
+, [ "row-k8v2-6v9z-3ehh", "00000000-0000-0000-15CD-44712E3F3E7C", 0, 1643905240, null, 1643905240, null, "{ }", "Alaska", "Female", "79.9", "0.237", "79.9 - 80.9" ]
+, [ "row-pitn~yt5e_kbtm", "00000000-0000-0000-8D0C-360B4D2FF525", 0, 1643905240, null, 1643905240, null, "{ }", "Georgia", "Female", "79.9", "0.059", "79.9 - 80.9" ]
+, [ "row-3hsg~j5cu~t88p", "00000000-0000-0000-DDA3-B2D11F6C205F", 0, 1643905240, null, 1643905240, null, "{ }", "Missouri", "Female", "79.8", "0.078", "77.3 - 79.8" ]
+, [ "row-2zb7.63it_n4q8", "00000000-0000-0000-9822-7A9C9FE9F49A", 0, 1643905240, null, 1643905240, null, "{ }", "South Carolina", "Female", "79.7", "0.086", "77.3 - 79.8" ]
+, [ "row-ukaj-hsrm.b29x", "00000000-0000-0000-A885-3A46097AACB2", 0, 1643905240, null, 1643905240, null, "{ }", "Indiana", "Female", "79.5", "0.075", "77.3 - 79.8" ]
+, [ "row-z27v-3ufv-e9z5", "00000000-0000-0000-5091-47A4DBE88AD4", 0, 1643905240, null, 1643905240, null, "{ }", "Ohio", "Female", "79.5", "0.057", "77.3 - 79.8" ]
+, [ "row-9mt7.84fb-9c68", "00000000-0000-0000-C884-57DC51AA6C8B", 0, 1643905240, null, 1643905240, null, "{ }", "Louisiana", "Female", "78.6", "0.093", "77.3 - 79.8" ]
+, [ "row-8a84_na92~acur", "00000000-0000-0000-DD80-D4A6CD28B46A", 0, 1643905240, null, 1643905240, null, "{ }", "Tennessee", "Female", "78.5", "0.075", "77.3 - 79.8" ]
+, [ "row-ja7q.c2mp-p3nz", "00000000-0000-0000-C4EA-8135C5119BED", 0, 1643905240, null, 1643905240, null, "{ }", "Arkansas", "Female", "78.4", "0.114", "77.3 - 79.8" ]
+, [ "row-6wmc.nd5a-s8jc", "00000000-0000-0000-484E-05B8FD39A557", 0, 1643905240, null, 1643905240, null, "{ }", "Oklahoma", "Female", "78.3", "0.099", "77.3 - 79.8" ]
+, [ "row-zvks~grzv-q6vu", "00000000-0000-0000-FD12-7B0B07D44182", 0, 1643905240, null, 1643905240, null, "{ }", "Alabama", "Female", "78.2", "0.09", "77.3 - 79.8" ]
+, [ "row-gkmk.mseg.ihhc", "00000000-0000-0000-229F-45298303B37C", 0, 1643905240, null, 1643905240, null, "{ }", "Kentucky", "Female", "78", "0.091", "77.3 - 79.8" ]
+, [ "row-z2ia_qbj9_m4f4", "00000000-0000-0000-41B7-1FA9B0FBC6CF", 0, 1643905240, null, 1643905240, null, "{ }", "Mississippi", "Female", "77.6", "0.118", "77.3 - 79.8" ]
+, [ "row-jhyj-gk52.4ykt", "00000000-0000-0000-75D6-47DF075A56E2", 0, 1643905240, null, 1643905240, null, "{ }", "West Virginia", "Female", "77.3", "0.153", "77.3 - 79.8" ]
+ ]
+}
