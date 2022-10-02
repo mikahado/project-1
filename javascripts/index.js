@@ -19,16 +19,25 @@ document.addEventListener("DOMContentLoaded", () => {
 function buildUserInput(todayDate, birthDate){
     //caculates your age in months, posts it on the DOM
     const todayYear = todayDate.slice(0, 4)
+    const todayMonth = todayDate.slice(5, 7)
     const birthYear = birthDate.slice(0, 4)
     const birthMonth = birthDate.slice(5,7)
+    // console.log("today year:", todayYear)
+    // console.log("today month:", todayMonth)
+    // console.log("birth year:", birthYear)
+    // console.log("birth month:", birthMonth)
 
     monthsByYear = (todayYear - birthYear) * 12
-    monthAge = monthsByYear + parseInt(birthMonth)
-
-    percentThrough = monthAge / 10
+    monthsByYearAdjust = monthsByYear - birthMonth + 1
+    monthAge = monthsByYearAdjust + parseInt(todayMonth)
+    // console.log("months by year:", monthsByYear)
+    // console.log("adjust for unlived birth-months:", monthsByYearAdjust)
+    // console.log("correct age in months", monthAge)
+ 
+    percentage = monthAge / 10
    
     let p = document.createElement('p')
-    p.textContent = "You have lived " + monthAge + " months. You are now " + percentThrough + "% finished with your 1000 months." 
+    p.textContent = "You have lived " + monthAge + " months. You have lived " + percentage + "% of your 1000 months." 
     document.querySelector('#myInfo').appendChild(p)
 
  }
@@ -47,15 +56,9 @@ function buildUserInput(todayDate, birthDate){
     const actArray = Object.values(acts);
     act = actArray[0]
     let p = document.createElement('p')
-    p.textContent = "Randomized suggestion for the month. . . " + act + '!' 
+    p.textContent = "Dare to do something different. How about . . . " + act + '!' 
     document.querySelector('#activity').appendChild(p)
     }
-
-
-
-
-
- 
 
 
 
@@ -63,7 +66,7 @@ function buildUserInput(todayDate, birthDate){
      //notes to self
     message = monthPlan.value
 
-    let p = document.createElement('p')
+    let p = document.createElement('li')
     p.textContent = message 
-    document.querySelector('#reminder').appendChild(p)
+    document.querySelector('#plans').appendChild(p)
  }
