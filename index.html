@@ -9,31 +9,36 @@
     <body>
 
         <div id="header">
-            <h1>the lifeTrack app</h1>
+            <h1>lifeTrack</h1>
+            
         </div>
+
+    <div id="epitaph">
+        <p>"An average lifespan is about thousand months long. . . Our journey on this earth is one thousand. Months. Long" </p>
+    </div>
 
     <div id="container">
 
         <!-- AGE IN MONTHS FORM -->
 
         <form id="ageInMonths" action="" method="POST">
-            <h3>Age in Months</h3>
-            <label> Name
+            <h3>Your Age in Months</h3>
+            <!-- <label> Name
             <input type="text" id="username" name="username" value="" placeholder="username">
-            </label>
-            <br/><br/>
+            </label> -->
             <label>
-                Current Date
-            <input type="date" id="todayDate" name="todayDate" value="" min="1800-01-01" max="2999-12-31"><br/><br/>
+                Current Date <br>
+                <input type="date" id="todayDate" name="todayDate" value="" min="1800-01-01" max="2999-12-31"><br/><br/>
             </label>
-            <label> Birthdate 
+            <br>
+            <label> Birthdate <br>
             <input type="date" id="birthDate" name="birthDate" value="" min="1800-01-01" max="2999-12-31"><br/><br/>
             </label>
             <input type="submit" id="button" value="Submit!">
         </form>
 
         <div id="about">
-            <p> This is lifeTrack. The practical goal-setting app. The only app that puts your life in time into perspective. It shows you how many months you have lived, and how many you might have left based on average life expectancy. It is positive, supportive, inspirational, and can be used to make practical month-term goals.  </p>
+            <p> This is lifeTrack. <br><br> Lifetrack is a self-help app that can be used to make practical, doable goals each month. <br><br> Start on the left, by calculating how far along you've come in this journey of a thousand months.  </p> <a href="https://medium.com/@mikahado/console-blog-lifetrack-38d3f0a2bafc">Read the lifeTrack blog here.</a>
 
         </div>
 
@@ -51,13 +56,15 @@
 
 <form id="comments" action="" method="POST">
     <h3 id="subtitles">Month Plan</h3>
-    <label>
-        How will you make a change this month? <br><br>
-    <input type="text" id="monthPlan" name="monthPlan"><br/><br/>
-    </label>
+    <p>
+        What do you want to accomplish <br> or do different this month? <br> <em>Hint: be short and concise! </em><br><br>
+        <br>
+    <textarea type="textarea" id="monthPlan" name="monthPlan" rows="7" cols="30" style="resize: none" maxlength="180"></textarea>
+    </p>
     <input type="submit" id="button" value="Save">
-    <ol id="reminder">
-    </ol>
+    <br><br>
+    <p id="plans"> My plans for the month:<br><br>
+    </p>
 </form>
 
 <br>
@@ -74,11 +81,10 @@
 
         <!-- REMINDERS -->
 
-        <div id="reminders">
+        <!-- <div id="reminders">
             <h3 id="subtitles">Reminder</h3>
-
-            <ol id="reminder">
-            </ol>
+            <p id="reminder">
+            </p> -->
 
         </div>
         <br>
