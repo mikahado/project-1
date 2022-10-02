@@ -37,10 +37,24 @@ function buildUserInput(todayDate, birthDate){
     percentage = monthAge / 10
    
     let p = document.createElement('p')
-    p.textContent = "You have lived " + monthAge + " months. You have lived " + percentage + "% of your 1000 months." 
+    p.textContent = "You have lived " + monthAge + " months. That is " + percentage + "% of your 1000 months here on Earth." 
     document.querySelector('#myInfo').appendChild(p)
 
  }
+
+ async function fetchData() {
+    const response = await fetch('/db.json');
+    const lifeExpt = await response.json();
+    console.log(lifeExpt);
+  }
+
+fetchData().then(lifeExpt => {
+    const exptArray = Object.values(lifeExpt)
+    const state = exptArray[0]
+    const total = exptArray[1]
+    
+
+})
 
 
  getActivity()
@@ -54,19 +68,17 @@ function buildUserInput(todayDate, birthDate){
 
  function activity(acts){
     const actArray = Object.values(acts);
-    act = actArray[0]
+    acts = actArray[0]
     let p = document.createElement('p')
-    p.textContent = "Dare to do something different. How about . . . " + act + '!' 
+    p.textContent = "Dare to do something different. How about . . . " + acts + '!' 
     document.querySelector('#activity').appendChild(p)
     }
 
-
-
  function myMsg(message){
-     //notes to self
+     //monthly plan textbox
     message = monthPlan.value
-
     let p = document.createElement('li')
     p.textContent = message 
     document.querySelector('#plans').appendChild(p)
  }
+
