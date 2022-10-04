@@ -2,7 +2,7 @@ Name: Life Counter. TimeLife. MyMonth. Month.
 
 Like a step counter, but for your whole life. App for middle aged people that want a fire under their butt. 
 
-What does it do? The app puts your life in time into perspective. It shows you how many months you have lived, and how many you might have left, based on average life expectancy. It is positive, supportive, inspirational. Not like a 'death counter'. 
+What does it do? The app puts your life in time into perspective. It shows you how many months you have lived  based on average life expectancy. It is positive, supportive, inspirational. Not like a 'death counter', it offers features to improve your productivity and quality of life, month by month.  
 
 Reminds you once every 3-5 weeks (on random days you have taken less than average steps), how many months you have lived...
 
@@ -31,8 +31,6 @@ When my brother and his wife had their first child, they only refered to the lit
 
 
 
-
-
 ### API LINKS: 
 
 
@@ -41,6 +39,8 @@ ALLOWS YOU TO "COLLECT" A QUOTE
 
 ### Dataset
 https://catalog.data.gov/dataset/u-s-state-life-expectancy-by-sex-2019
+
+https://www.sciencealert.com/here-are-the-ages-you-peak-at-everything-throughout-life
 
 Must have 3 different event listeners. 
 
