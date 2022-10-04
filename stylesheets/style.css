@@ -23,7 +23,7 @@ button {
 }
 
 #header {
-    width: 80%;
+    width: 90%;
     margin: auto;
     position: relative;
     display: flex;
@@ -45,12 +45,6 @@ button {
     box-shadow: 2px 5px 5px rgb(131, 131, 131);
 }
 
-#epitaph{
-    font-style: italic;
-    font-size: small;
-    padding: 10px;
-    display: flex;
-}
 
 #ageInMonths{
     margin: 10px;
@@ -65,7 +59,7 @@ button {
 }
 
 #about{
-    margin-left: 15px;
+    margin-left: 20px;
     text-align: left;
     width: 33%;
     text-shadow: 0px 0px 1px #b8b8b8;
@@ -74,18 +68,17 @@ button {
 
 
 #info {
-    width: 60%;
+    width: 70%;
     margin: auto; 
     border: 1px solid #333;
     background: rgba(255,255,255,0.75);
     padding: 15px 20px 18px 18px;
     border-radius: 10px;
     box-shadow: 2px 5px 5px rgb(160, 159, 159);
-
 }
 
 #reminders {
-    width: 60%;
+    width: 70%;
     margin: auto; 
     border: 1px solid #333;
     background: rgba(255,255,255,0.75);
@@ -97,7 +90,7 @@ button {
 
 
 #activity {
-    width: 60%; 
+    width: 70%; 
     font-size: larger;
     font-style: italic;
     font-family:'Courier New', Courier, monospace;
@@ -111,9 +104,8 @@ button {
 }
 
 #plans {
-    width: 80%;
+    width: 70%;
     margin: auto; 
-
     background: rgba(255,255,255,0.75);
     padding: 15px 15px 15px 15px; 
     border-radius: 10px;
@@ -132,7 +124,7 @@ button {
 }
 
 #comments {
-    width: 60%;
+    width: 70%;
     margin: auto; 
     border: 1px solid #333;
     background: rgba(255,255,255,0.75);
@@ -143,4 +135,12 @@ button {
     resize: none;
 }
 
-
+#specData {
+    width: 70%;
+    margin: auto; 
+    border: 1px solid #333;
+    background: rgba(255,255,255,0.75);
+    padding: 15px 20px 18px 18px;
+    border-radius: 10px;
+    box-shadow: 2px 5px 5px rgb(160, 159, 159);
+}
