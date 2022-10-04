@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
         <title>lifeTrack, a counter for your life's journey</title>
         <link rel="stylesheet" href="./stylesheets/style.css">
         <script src="./javascripts/index.js"></script>
@@ -10,14 +11,13 @@
 
         <div id="header">
             <h1>lifeTrack</h1>
-            
         </div>
 
  
 
     <div id="container">
 
-        <!-- AGE IN MONTHS FORM -->
+    <!-- AGE IN MONTHS FORM -->
 
         <form id="ageInMonths" action="" method="POST">
             <h3>Your Age in Months</h3>
@@ -36,56 +36,66 @@
         </form>
 
         <div id="about">
-            <p> This is lifeTrack. <br><br> Lifetrack is a self-help app that can be used to make practical, doable goals each month. <br><br> Start on the left, by calculating how far along you've come in this journey of a thousand months.  </p> <a target="_blank" href="https://medium.com/@mikahado/console-blog-lifetrack-38d3f0a2bafc">Read the lifeTrack blog here.</a>
+            <br>On average, a human's journey on Earth is only about a thousand months long. . . What will you do with your Thousand?<br><br> Lifetrack is an app that sets doable goals each month, and reminds you that life is a doing word. <br></p> <a target="_blank" href="https://medium.com/@mikahado/console-blog-lifetrack-38d3f0a2bafc">About lifeTrack.</a>
 
         </div>
 
     </div>
  
-        <div id="info">
-            <h2 id="subtitles">My Life</h2>
-            <ul id="myInfo">
-            </ul>
-        </div>
+     <div id="info">
+        <h2 id="subtitles">My Life</h2>
+        <ul id="myInfo">
+        </ul>
+    </div>
 
-        <br>
+    <br>
 
-<!-- MONTH PLAN -->
+    <!-- MONTH PLAN -->
 
-<form id="comments" action="" method="POST">
-    <h3 id="subtitles">Get It Done.</h3>
-    <p>
-        Describe one significant thing <br> that you will do this month. <br>
-        <br>
-    <textarea type="textarea" id="monthPlan" name="monthPlan" rows="7" cols="30" style="resize: none" maxlength="180"></textarea>
-    </p>
-    <input type="submit" id="button" value="Save">
+    <form id="comments" action="" method="POST">
+
+        <h3 id="subtitles">Get It Done.</h3>
+        <p> Describe one significant thing <br> that you will do <em>different</em> this month. 
     <br><br>
-    <p id="plans">
-    </p>
-</form>
+        <textarea type="textarea" id="monthPlan" name="monthPlan" rows="7" cols="30" style="resize: none" maxlength="180"></textarea>
+        </p> <!-- qq: should this be before the texarea?-->
+        <input type="submit" id="button" value="Save">
+        <br><br>
+        <p id="plans">
+        </p>
 
-<br>
+    </form>
 
-        <!-- QUOTES -->
+    <br>
 
-        <div id="activity">
-            <h3 id="subtitles">Shake It Up!</h3>
-        </div>
+    <!-- QUOTES -->
 
+    <div id="activity">
+        <h3 id="subtitles">Shake It Up!</h3>
+    </div>
 
-        <br>
+    <br>
 
+    <!-- REMINDERS -->
 
-        <!-- REMINDERS -->
+    <!-- <div id="reminders">
+        <h3 id="subtitles">Reminder</h3>
+        <p id="reminder"> Enter your email to receive a friendly reminder every 3 weeks.
+        </p>
+    </div> -->
 
-        <!-- <div id="reminders">
-            <h3 id="subtitles">Reminder</h3>
-            <p id="reminder">
-            </p> -->
+    <br><br><br><br>
 
-        </div>
-        <br>
+    <!-- SPECIFIC DATA -->
+
+    <div id="specData">
+        <h3 id="subtitles">Specific Data</h3>
+        <p id="specDatum"> Curious about the specific average lifespan in your state? Look it up below! 
+            <br><br>
+        </p>
+    </div>
+
+    <br>
 
     </body>
 </html>
