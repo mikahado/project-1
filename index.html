@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
         <title>lifeTrack, a counter for your life's journey</title>
         <link rel="stylesheet" href="./stylesheets/style.css">
         <script src="./javascripts/index.js"></script>
@@ -13,7 +13,9 @@
             <h1>lifeTrack</h1>
         </div>
 
- 
+
+        <button id="dark-mode-toggle" class="dark-mode-toggle" aria-label="toggle dark mode">Light/Dark Mode</button>
+
 
     <div id="container">
 
@@ -35,12 +37,20 @@
             <input type="submit" id="button" value="Submit!">
         </form>
 
-        <div id="about">
-            <br>On average, a human's journey on Earth is only about a thousand months long. . . What will you do with your Thousand?<br><br> Lifetrack is an app that sets doable goals each month, and reminds you that life is a doing word. <br></p> <a target="_blank" href="https://medium.com/@mikahado/console-blog-lifetrack-38d3f0a2bafc">About lifeTrack.</a>
+    <!-- About lifeTrack -->
 
+        <div id="about">
+            <br>On average, a human's journey on Earth is only about a thousand months long. . . What will you do with your Thousand?<br><br> Lifetrack is an app that sets doable goals each month, and reminds you that life is a doing word. <br></p> 
+            <form action="https://medium.com/@mikahado/console-blog-lifetrack-38d3f0a2bafc" target="_blank">
+                <input type="submit" value="About lifeTrack"/>
+            </form> 
+            
+            <br><br>
         </div>
 
     </div>
+
+    <!-- My Life card -->
  
      <div id="info">
         <h2 id="subtitles">My Life</h2>

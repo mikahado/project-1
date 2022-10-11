@@ -1,3 +1,6 @@
+Do Codewars Javascript Fundamentals
+
+
 Name: Life Counter. TimeLife. MyMonth. Month. 
 
 Like a step counter, but for your whole life. App for middle aged people that want a fire under their butt. 
