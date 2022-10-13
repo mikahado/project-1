@@ -18,12 +18,13 @@ document.addEventListener("DOMContentLoaded", () => {
     //LIFE EXP FROM API NEEDS WORK!!
     
     function lifeExpt(entries) {
+
         let averageMonths = 0
         let state = ''
     
         for (item in entries){
             console.log(item)
-            Math.ceil(item[10] * 12) += averageMonths 
+            Math.ceil(item[0][10] * 12) += averageMonths 
     
             item[8] += state
         }
