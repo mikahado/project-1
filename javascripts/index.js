@@ -15,28 +15,6 @@ document.addEventListener("DOMContentLoaded", () => {
     //END OF DOM 
     
     
-    //LIFE EXP FROM API NEEDS WORK!!
-    
-    function lifeExpt(entries) {
-
-        let averageMonths = 0
-        let state = ''
-    
-        for (item in entries){
-            console.log(item)
-            Math.ceil(item[0][10] * 12) += averageMonths 
-    
-            item[8] += state
-        }
-            const ul = document.querySelector('#specDatum')
-            const li = document.createElement('li')
-            li.textContent = state + ": " + averageMonths + " months."
-            ul.append(li)
-        }       
-    
-                  
-            
-    
     //AGE-IN-MONTHS FEATURE
      let form = document.querySelector('form') 
     
@@ -91,6 +69,28 @@ document.addEventListener("DOMContentLoaded", () => {
         p.textContent = "Dare to do something different. How about this: " + act + '!' 
         document.querySelector('#activity').appendChild(p)
         }
+
+    //LIFE EXP FROM API NEEDS WORK!!
+    
+    function lifeExpt(dataLife) {
+
+        for (item in dataLife){
+            const allItems = dataLife[item]
+            for (select in allItems){
+                const state = allItems[select][8]
+                const months = allItems[select][10]*12
+                const monthsRounded = Math.ceil(months)
+
+                // const lifeObj = allItems[select][8] + " : " + allItems[select][10]*12
+
+                const ul = document.querySelector('#specDatum')
+                const li = document.createElement('li')
+                li.textContent = `${state}: ${monthsRounded} months`
+                ul.append(li)
+            }
+        }     
+    }
+      
     
     //CSS MODE CHANGE
     
