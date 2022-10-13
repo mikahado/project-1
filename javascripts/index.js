@@ -1,24 +1,18 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-    //GRAB INFO FROM ACTIVITY API
     fetch('http://www.boredapi.com/api/activity/')
     .then(response => response.json())
     .then(data1 => activity(data1))
      
-    
-    //GRAB INFO FROM CDC DATABASE
     fetch('/db.json')
     .then(response => response.json())
     .then(data2 => lifeExpt(data2))
     
     }) 
-    //END OF DOM 
     
+    let form = document.querySelector('form') 
     
-    //AGE-IN-MONTHS FEATURE
-     let form = document.querySelector('form') 
-    
-     form.addEventListener('submit', (e) => { 
+    form.addEventListener('submit', (e) => { 
          e.preventDefault(); 
          monthCalc(e.target.todayDate.value, e.target.birthDate.value) 
          })
@@ -42,8 +36,6 @@ document.addEventListener("DOMContentLoaded", () => {
         
     }
     
-    //GET IT DONE FEATURE
-    
     let msg = document.getElementById('comments')
     
     msg.addEventListener('submit', (e) => { 
@@ -58,9 +50,7 @@ document.addEventListener("DOMContentLoaded", () => {
         p.textContent = message 
         document.querySelector('#plans').appendChild(p)
      }
-    
-     //SHAKE IT UP FEATURE
-    
+
      function activity(act){
         const actArray = Object.values(act);
         act = actArray[0]
@@ -69,8 +59,6 @@ document.addEventListener("DOMContentLoaded", () => {
         p.textContent = "Dare to do something different. How about this: " + act + '!' 
         document.querySelector('#activity').appendChild(p)
         }
-
-    //LIFE EXP FROM API NEEDS WORK!!
     
     function lifeExpt(dataLife) {
 
@@ -81,8 +69,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 const months = allItems[select][10]*12
                 const monthsRounded = Math.ceil(months)
 
-                // const lifeObj = allItems[select][8] + " : " + allItems[select][10]*12
-
                 const ul = document.querySelector('#specDatum')
                 const li = document.createElement('li')
                 li.textContent = `${state}: ${monthsRounded} months`
@@ -90,9 +76,6 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         }     
     }
-      
-    
-    //CSS MODE CHANGE
     
     let darkMode = localStorage.getItem('darkMode')
     let darkModeToggle = document.querySelector('#dark-mode-toggle');
@@ -108,7 +91,7 @@ document.addEventListener("DOMContentLoaded", () => {
        }
     
     darkModeToggle.addEventListener('click', () => { 
-       darkMode = localStorage.getItem('darkMode') 
+       let darkMode = localStorage.getItem('darkMode') 
        if (darkMode !== "enabled") {
            enableDarkMode();
         } else {
