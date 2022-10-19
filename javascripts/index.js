@@ -2,13 +2,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
     fetch('http://www.boredapi.com/api/activity/')
     .then(response => response.json())
-    .then(data1 => activity(data1))
+    .then(activityApi => activity(activityApi))
      
     fetch('/db.json')
     .then(response => response.json())
-    .then(data2 => lifeExpt(data2))
-    
-    }) 
+    .then(cdcData => cdcData.map((stateData)=> {
+        lifeExpt(stateData)  
+    }))
+}) 
     
     let form = document.querySelector('form') 
     
@@ -23,11 +24,8 @@ document.addEventListener("DOMContentLoaded", () => {
         const todayMonth = todayDate.slice(5, 7)
         const birthYear = birthDate.slice(0, 4)
         const birthMonth = birthDate.slice(5,7)
-    
-        const monthsByYear = (todayYear - birthYear) * 12
-        const monthsByYearAdjust = monthsByYear - birthMonth
-        const monthAge = monthsByYearAdjust + parseInt(todayMonth)
-    
+
+        const monthAge = ((todayYear - birthYear) * 12) - (birthMonth) + (parseInt(todayMonth))
         const percentage = monthAge / 10
     
         let p = document.createElement('p')
@@ -36,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
         
     }
     
-    let msg = document.getElementById('comments')
+    const msg = document.getElementById('comments')
     
     msg.addEventListener('submit', (e) => { 
         e.preventDefault(); 
@@ -62,23 +60,26 @@ document.addEventListener("DOMContentLoaded", () => {
     
     function lifeExpt(dataLife) {
 
-        for (item in dataLife){
-            const allItems = dataLife[item]
-            for (select in allItems){
-                const state = allItems[select][8]
-                const months = allItems[select][10]*12
-                const monthsRounded = Math.ceil(months)
 
-                const ul = document.querySelector('#specDatum')
-                const li = document.createElement('li')
-                li.textContent = `${state}: ${monthsRounded} months`
-                ul.append(li)
-            }
-        }     
+
+
+        // for (item in dataLife){
+        //     const allItems = dataLife[item]
+        //     for (select in allItems){
+        //         const state = allItems[select][8]
+        //         const months = allItems[select][10]*12
+        //         const monthsRounded = Math.ceil(months)
+
+        //         const ul = document.querySelector('#specDatum')
+        //         const li = document.createElement('li')
+        //         li.textContent = `${state}: ${monthsRounded} months`
+        //         ul.append(li)
+        //     }
+        // }     
     }
     
-    let darkMode = localStorage.getItem('darkMode')
-    let darkModeToggle = document.querySelector('#dark-mode-toggle');
+    const darkMode = localStorage.getItem('darkMode')
+    const darkModeToggle = document.querySelector('#dark-mode-toggle');
     
     const enableDarkMode = () => {
         document.body.classList.add('darkmode')
@@ -98,3 +99,28 @@ document.addEventListener("DOMContentLoaded", () => {
            disableDarkMode();
        }
     })
+
+
+
+
+
+    // Below is the code challege for my project assessment: 
+
+    // const commentForm = document.querySelector("#user-comments-form")
+    // // const commentsSubmit = document.getElementById("user-comments-submit")
+    // const commentText = document.getElementById("user-comments-input")
+    // console.log(commentText)
+
+    // commentForm.addEventListener('submit', (e) => {
+    //     e.preventDefault()
+    //     addComment(commentText.value)
+    // })
+
+    // function addComment(text){
+    //     // text = commentsSubmit.value
+    //     let p = document.createElement("p")
+    //     console.log(p)
+    //     p.textContent = text 
+    //     console.log(p.textContent)
+    //     document.querySelector('#user-comments-div').append(text)
+    //    }

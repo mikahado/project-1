@@ -114,5 +114,3 @@ Often based on user experience
 * Support system 
 * A user can browse links to other self-help resources
 * 
-
-
