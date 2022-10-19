@@ -9,6 +9,33 @@ document.addEventListener("DOMContentLoaded", () => {
     .then(cdcData => lifeExpt(cdcData))  
     
 }) 
+
+    //
+    //make our Event Listener
+    //grab the practice-button id
+    //create p tag - createElement
+    //insert the text - "Hello world"
+    //grab and append it to the div container
+
+    const pButton = document.getElementById('practice-button')
+    
+    pButton.addEventListener('click', () => {
+
+    const p = document.createElement('p')
+    p.textContent = 'Hello world'
+    document.getElementById('new-container').append(p)
+        
+    }
+    )
+
+
+    
+
+
+
+
+"practice-button"
+
     
     let form = document.querySelector('form') 
     
@@ -59,7 +86,7 @@ document.addEventListener("DOMContentLoaded", () => {
     
     function lifeExpt(dataLife) {
 
-        //below does not work with new, sanitized db
+        //below does not work with new, sanitized database
 
         for (item in dataLife){
             const allItems = dataLife[item]
@@ -97,6 +124,8 @@ document.addEventListener("DOMContentLoaded", () => {
            disableDarkMode();
        }
     })
+
+
 
 
 
