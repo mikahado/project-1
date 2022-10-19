@@ -4,11 +4,12 @@ document.addEventListener("DOMContentLoaded", () => {
     .then(response => response.json())
     .then(activityApi => activity(activityApi))
      
-    fetch('/db.json')
+    fetch('http://localhost:3000/data')
     .then(response => response.json())
-    .then(cdcData => cdcData.map((stateData)=> {
-        lifeExpt(stateData)  
-    }))
+    .then(cdcData => cdcData.map(allData => 
+        lifeExpt(allData)  
+        )
+    )
 }) 
     
     let form = document.querySelector('form') 
@@ -50,30 +51,30 @@ document.addEventListener("DOMContentLoaded", () => {
      }
 
      function activity(act){
-        const actArray = Object.values(act);
-        act = actArray[0]
+        const activity = act.activity
+
+        // const actArray = Object.values(act);
+        // act = actArray[0]
     
         let p = document.createElement('p')
-        p.textContent = "Dare to do something different. How about this: " + act + '!' 
+        p.textContent = "Dare to do something different. How about this: " + activity + '!' 
         document.querySelector('#activity').appendChild(p)
         }
     
     function lifeExpt(dataLife) {
 
-        
-        // for (item in dataLife){
-        //     const allItems = dataLife[item]
-        //     for (select in allItems){
-        //         const state = allItems[select][8]
-        //         const months = allItems[select][10]*12
-        //         const monthsRounded = Math.ceil(months)
+        const stateData = dataLife.state
+        const monthData = Math.floor(dataLife.total * 12)
+  
+        //create a dropdown menu with all the states. 
+        //if selection value equals a state
+        //append the state and month Data to Dom
 
-        //         const ul = document.querySelector('#specDatum')
-        //         const li = document.createElement('li')
-        //         li.textContent = `${state}: ${monthsRounded} months`
-        //         ul.append(li)
-        //     }
-        // }     
+        const ul = document.querySelector('#specDatum')
+        const li = document.createElement('li')
+        li.textContent = `${stateData}: ${monthData} months`
+        ul.append(li)
+   
     }
     
     const darkMode = localStorage.getItem('darkMode')
@@ -97,10 +98,6 @@ document.addEventListener("DOMContentLoaded", () => {
            disableDarkMode();
        }
     })
-
-
-
-
 
     // Below is the code challege for my project assessment: 
 

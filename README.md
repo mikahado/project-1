@@ -26,6 +26,6 @@ Check out the lifeTrak GitHub here.
 
 ### Installation 
 
-* Fork and clone the program from my GitHub: [@mikahado](____) 
-* Run json server for db.json
+* Fork and clone the program from my GitHub: https://github.com/mikahado/project-1
+* Run json server for db.json (in terminal: json-server --watch db.json) watch: http://localhost:3000/data)
 * Open index.html in the browser
