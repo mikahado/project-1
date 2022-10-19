@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
     
         let p = document.createElement('p')
         p.textContent = `You have lived  ${monthAge} months. That is ${percentage}% of your 1000 months here on Earth.` 
-        document.querySelector('#myInfo').appendChild(p)
+        document.querySelector('#myInfo').append(p)
         
     }
     
