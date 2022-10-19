@@ -24,11 +24,11 @@ document.addEventListener("DOMContentLoaded", () => {
         const birthYear = birthDate.slice(0, 4)
         const birthMonth = birthDate.slice(5,7)
     
-        let monthsByYear = (todayYear - birthYear) * 12
-        let monthsByYearAdjust = monthsByYear - birthMonth
-        let monthAge = monthsByYearAdjust + parseInt(todayMonth)
+        const monthsByYear = (todayYear - birthYear) * 12
+        const monthsByYearAdjust = monthsByYear - birthMonth
+        const monthAge = monthsByYearAdjust + parseInt(todayMonth)
     
-        let percentage = monthAge / 10
+        const percentage = monthAge / 10
     
         let p = document.createElement('p')
         p.textContent = `You have lived  ${monthAge} months. That is ${percentage}% of your 1000 months here on Earth.` 
