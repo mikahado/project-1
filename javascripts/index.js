@@ -6,9 +6,8 @@ document.addEventListener("DOMContentLoaded", () => {
      
     fetch('/db.json')
     .then(response => response.json())
-    .then(cdcData => cdcData.map((stateData)=> {
-        lifeExpt(stateData)  
-    }))
+    .then(cdcData => lifeExpt(cdcData))  
+    
 }) 
     
     let form = document.querySelector('form') 
@@ -60,22 +59,21 @@ document.addEventListener("DOMContentLoaded", () => {
     
     function lifeExpt(dataLife) {
 
+        //below does not work with new, sanitized db
 
+        for (item in dataLife){
+            const allItems = dataLife[item]
+            for (select in allItems){
+                const state = allItems[select][8]
+                const months = allItems[select][10]*12
+                const monthsRounded = Math.ceil(months)
 
-
-        // for (item in dataLife){
-        //     const allItems = dataLife[item]
-        //     for (select in allItems){
-        //         const state = allItems[select][8]
-        //         const months = allItems[select][10]*12
-        //         const monthsRounded = Math.ceil(months)
-
-        //         const ul = document.querySelector('#specDatum')
-        //         const li = document.createElement('li')
-        //         li.textContent = `${state}: ${monthsRounded} months`
-        //         ul.append(li)
-        //     }
-        // }     
+                const ul = document.querySelector('#specDatum')
+                const li = document.createElement('li')
+                li.textContent = `${state}: ${monthsRounded} months`
+                ul.append(li)
+            }
+        }     
     }
     
     const darkMode = localStorage.getItem('darkMode')
