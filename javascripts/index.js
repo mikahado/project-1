@@ -24,11 +24,11 @@ document.addEventListener("DOMContentLoaded", () => {
     const p = document.createElement('p')
     p.textContent = 'Hello world'
     document.getElementById('new-container').append(p)
-        
     }
     )
 
 
+    // 
     
 
 
