@@ -4,38 +4,13 @@ document.addEventListener("DOMContentLoaded", () => {
     .then(response => response.json())
     .then(activityApi => activity(activityApi))
      
-    fetch('/db.json')
+    fetch('http://localhost:3000/data')
     .then(response => response.json())
-    .then(cdcData => lifeExpt(cdcData))  
-    
-}) 
-
-    //
-    //make our Event Listener
-    //grab the practice-button id
-    //create p tag - createElement
-    //insert the text - "Hello world"
-    //grab and append it to the div container
-
-    const pButton = document.getElementById('practice-button')
-    
-    pButton.addEventListener('click', () => {
-
-    const p = document.createElement('p')
-    p.textContent = 'Hello world'
-    document.getElementById('new-container').append(p)
-    }
+    .then(cdcData => cdcData.map(allData => 
+        lifeExpt(allData)  
+        )
     )
-
-
-    // 
-    
-
-
-
-
-"practice-button"
-
+}) 
     
     let form = document.querySelector('form') 
     
@@ -76,31 +51,28 @@ document.addEventListener("DOMContentLoaded", () => {
      }
 
      function activity(act){
-        const actArray = Object.values(act);
-        act = actArray[0]
+        const activity = act.activity
     
         let p = document.createElement('p')
-        p.textContent = "Dare to do something different. How about this: " + act + '!' 
+        p.textContent = "Dare to do something different. How about this: " + activity + '!' 
         document.querySelector('#activity').appendChild(p)
         }
     
     function lifeExpt(dataLife) {
 
-        //below does not work with new, sanitized database
+        const stateData = dataLife.state
+        const monthData = Math.floor(dataLife.total * 12)
+  
+        //TODO
+        //create a dropdown menu with all the states. 
+        //if selection value equals a state
+        //append the state and month Data to Dom
 
-        for (item in dataLife){
-            const allItems = dataLife[item]
-            for (select in allItems){
-                const state = allItems[select][8]
-                const months = allItems[select][10]*12
-                const monthsRounded = Math.ceil(months)
-
-                const ul = document.querySelector('#specDatum')
-                const li = document.createElement('li')
-                li.textContent = `${state}: ${monthsRounded} months`
-                ul.append(li)
-            }
-        }     
+        const ul = document.querySelector('#specDatum')
+        const li = document.createElement('li')
+        li.textContent = `${stateData}: ${monthData} months`
+        ul.append(li)
+   
     }
     
     const darkMode = localStorage.getItem('darkMode')
@@ -124,12 +96,6 @@ document.addEventListener("DOMContentLoaded", () => {
            disableDarkMode();
        }
     })
-
-
-
-
-
-
 
     // Below is the code challege for my project assessment: 
 
