@@ -52,9 +52,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
      function activity(act){
         const activity = act.activity
-
-        // const actArray = Object.values(act);
-        // act = actArray[0]
     
         let p = document.createElement('p')
         p.textContent = "Dare to do something different. How about this: " + activity + '!' 

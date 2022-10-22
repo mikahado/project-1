@@ -5,7 +5,7 @@
 
 lifeTrack is an app puts your `life in time` into perspective. It shows you how many months you have lived so far based on `average life expectancy`. It is positive, supportive, inspirational. To make all of your months worthwhile.  
 
->Unlike a 'death counter' which predicts your death-date by life expectancy, lifeTrack offers features to IMPROVE your productivity and quality of life, month by month, to inspire and set fire to flame in your life.  
+>Unlike a novelty 'death counter' which predicts your death-date by life expectancy, lifeTrack offers features to IMPROVE your productivity and quality of life, month by month, to inspire and set fire to flame in your life.  
 
 Check out the lifeTrak blog here. Read both the inspiration and the techincal review. 
 
@@ -22,10 +22,12 @@ Check out the lifeTrak GitHub here.
 
 * Be connected to the internet with supported browser. 
 * Have json-server installed to run the prototype.
+* Ruen: json-server --watch db.json 
+* watch: http://localhost:3000/data
 
 
 ### Installation 
 
 * Fork and clone the program from my GitHub: https://github.com/mikahado/project-1
-* Run json server for db.json (in terminal: json-server --watch db.json) watch: http://localhost:3000/data)
+* Run json server for db.json 
 * Open index.html in the browser
